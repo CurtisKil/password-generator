@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator!!</title>
+
+    <!--Link to bootstrap goes after title!-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+   
+
+    <!-- Here you created a container to incorporate Bootsrap grid and the layout -->
+    <div class="container background">
+        
+        <!-- Within this row you made lg screens have 8 width wide column and for the small screens it will be a 12 width wide column or take up the whole screen -->
+        <div class="row">
+
+            <!-- Here you made the content responsive and centered it to the screen. mx-auto centers the div with bootstrap -->
+            <div class= "col-lg-8 col-sm-12 mx-auto">
+             
+                <!-- Here you created a div for the content -->
+                <div class="content text-center background2">
+                  
+                  <!-- Here you created your header with an h4 tag -->
+                  <h4>Random Password Generator</h4 >
+                  
+                  <!-- Here you placed in a line break in order to create some seperation between the header and input -->
+                  <br />
+                  
+                  <!-- Here you created a text box -->
+                  <input type="text" id="display">
+                  <br />
+                  
+                  <!-- Here you used the input tag with a type of range to create a character count range for the password-->
+                  <input type="range" min="8" max="128" name="slider" id="slider">
+                  <br />
+
+                  <!-- Here you created yo buttons -->
+                  <button onclick="generate()">Generate Password</button>
+                  <button onclick="copyPassword()">Copy to Clipboard</button>
+                  <div id="length"></div>
+                  <br />
+
+                  
+
+
+                </div>
+                
+
+            </div>
+         
+        </div>   
+    </div>
+    <!-- This needs to be at the bottom of the html so it doesn't try to execute before the page loads -->
+    <script src="script.js"></script>
+</body>
+</html>

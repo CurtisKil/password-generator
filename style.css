@@ -1,0 +1,32 @@
+/* First you styled the content div that you created */
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Here you want to give the div a width of 100% so it takes up the same amount of space as the content div */
+#display{
+    width: 100%;
+}
+
+#slider{
+    width:100%
+}
+
+#length{
+    display: inline-block;
+    width: 100px;
+
+}
+
+.background{
+    background:slategray;
+
+}
+
+.background2{
+    background:teal;
+}
