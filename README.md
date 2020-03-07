@@ -1,11 +1,8 @@
 # password-generator
 
-With this project I created a random password generator. When a user wants to generate a password they have the ability to choose the length 
+With this project I created a random password generator. When a user wants to generate a password they have the ability to choose the length between 8-128 characters and the password will consist of upper and lower case letters, numbers, and special characters. Once they generate the password they are also able to easily copy the password so that they can paste it and use it, wherever they'd like. 
 
-that they want and they are also able to easily copy the password so they can paste it and use it, wherever they'd like. The password that 
+# Images 
 
-is generated will have a length of 8-128 characters and be a combination of upper and lower case letters, numbers, and special characters.
-
-
-# Images ![Screenshot of Password Generator](images/PG Screen Shot.png)
+![Screenshot of Password Generator](/images/PG%20Screen%20Shot.png)
 
